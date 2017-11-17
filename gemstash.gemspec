@@ -38,6 +38,7 @@ you push your own private gems as well."
   spec.add_runtime_dependency "sequel", "~> 5.0"
   spec.add_runtime_dependency "sinatra", "~> 1.4"
   spec.add_runtime_dependency "thor", "~> 0.19"
+  spec.add_runtime_dependency "aws-sdk", "~> 2"
 
   # Run Gemstash with the mysql adapter
   # spec.add_runtime_dependency "mysql", "~> 2.9"
